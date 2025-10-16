@@ -1,0 +1,119 @@
+[
+ {
+    "_id": "651001111111111111111111",
+    "name": "Electronics",
+    "description": "All electronic items",
+    "slug": "electronics",
+    "parent": null
+  },
+  {
+    "_id": "651002222222222222222222",
+    "name": "Cars",
+    "description": "All types of cars",
+    "slug": "cars",
+    "parent": null
+  },
+  {
+    "_id": "651003333333333333333333",
+    "name": "Shoes",
+    "description": "All types of shoes",
+    "slug": "shoes",
+    "parent": null
+  },
+  {
+    "_id": "651004444444444444444444",
+    "name": "Clothes",
+    "description": "Different clothing styles",
+    "slug": "clothes",
+    "parent": null
+  },
+  {
+    "_id": "651005555555555555555555",
+    "name": "Bags",
+    "description": "All kinds of bags",
+    "slug": "bags",
+    "parent": null
+  },
+  {
+    "_id": "651006666666666666666666",
+    "name": "Phones",
+    "description": "Smartphones and feature phones",
+    "slug": "phones",
+    "parent": "651001111111111111111111"
+  },
+  {
+    "_id": "651007777777777777777777",
+    "name": "Laptops",
+    "description": "All types of laptops",
+    "slug": "laptops",
+    "parent": "651001111111111111111111"
+  },
+  {
+    "_id": "651008888888888888888888",
+    "name": "Chargers",
+    "description": "Phone and laptop chargers",
+    "slug": "chargers",
+    "parent": "651001111111111111111111"
+  },
+
+  {
+    "_id": "651009999999999999999999",
+    "name": "SUV",
+    "description": "Sport Utility Vehicles",
+    "slug": "suv",
+    "parent": "651002222222222222222222"
+  },
+  {
+    "_id": "651010101010101010101010",
+    "name": "Sedan",
+    "description": "Sedan cars",
+    "slug": "sedan",
+    "parent": "651002222222222222222222"
+  },
+
+  {
+    "_id": "651011111111111111111111",
+    "name": "Sneakers",
+    "description": "Casual sneakers",
+    "slug": "sneakers",
+    "parent": "651003333333333333333333"
+  },
+  {
+    "_id": "651012222222222222222222",
+    "name": "Formal Shoes",
+    "description": "Office and formal shoes",
+    "slug": "formal-shoes",
+    "parent": "651003333333333333333333"
+  },
+
+  {
+    "_id": "651013333333333333333333",
+    "name": "Men's Wear",
+    "description": "Clothing for men",
+    "slug": "mens-wear",
+    "parent": "651004444444444444444444"
+  },
+  {
+    "_id": "651014444444444444444444",
+    "name": "Women's Wear",
+    "description": "Clothing for women",
+    "slug": "womens-wear",
+    "parent": "651004444444444444444444"
+  },
+
+  {
+    "_id": "651015555555555555555555",
+    "name": "Backpacks",
+    "description": "School and travel backpacks",
+    "slug": "backpacks",
+    "parent": "651005555555555555555555"
+  },
+  {
+    "_id": "651016666666666666666666",
+    "name": "Handbags",
+    "description": "Ladies handbags",
+    "slug": "handbags",
+    "parent": "651005555555555555555555"
+  }
+
+]

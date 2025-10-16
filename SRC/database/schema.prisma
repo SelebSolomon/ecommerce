@@ -1,0 +1,102 @@
+// schema.prisma
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id        Int       @id @default(autoincrement())
+  name      String
+  email     String    @unique
+  password  String
+  role      String    @default("user")
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  // Relationships
+  reviews   Review[]
+  cart      Cart?
+  wishlist  Wishlist?
+}
+
+model Category {
+  id       Int       @id @default(autoincrement())
+  name     String    @unique
+  products Product[]
+}
+
+model Product {
+  id         Int       @id @default(autoincrement())
+  name       String
+  description String
+  price      Float
+  stock      Int
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+
+  // Relationships
+  category   Category  @relation(fields: [categoryId], references: [id])
+  categoryId Int
+  reviews    Review[]
+  cartItems  CartItem[]
+  wishlistItems WishlistItem[]
+}
+
+model Review {
+  id        Int       @id @default(autoincrement())
+  rating    Int
+  comment   String?
+  createdAt DateTime  @default(now())
+
+  // Relationships
+  user      User      @relation(fields: [userId], references: [id])
+  userId    Int
+  product   Product   @relation(fields: [productId], references: [id])
+  productId Int
+}
+
+model Cart {
+  id        Int       @id @default(autoincrement())
+  user      User      @relation(fields: [userId], references: [id])
+  userId    Int       @unique
+  items     CartItem[]
+  createdAt DateTime  @default(now())
+}
+
+model CartItem {
+  id        Int       @id @default(autoincrement())
+  quantity  Int       @default(1)
+  cart      Cart      @relation(fields: [cartId], references: [id])
+  cartId    Int
+  product   Product   @relation(fields: [productId], references: [id])
+  productId Int
+}
+
+model Wishlist {
+  id        Int       @id @default(autoincrement())
+  user      User      @relation(fields: [userId], references: [id])
+  userId    Int       @unique
+  items     WishlistItem[]
+  createdAt DateTime  @default(now())
+}
+
+model WishlistItem {
+  id        Int       @id @default(autoincrement())
+  wishlist  Wishlist  @relation(fields: [wishlistId], references: [id])
+  wishlistId Int
+  product   Product   @relation(fields: [productId], references: [id])
+  productId Int
+}
+
+model Log {
+  id        Int       @id @default(autoincrement())
+  user      User?     @relation(fields: [userId], references: [id])
+  userId    Int?
+  action    String
+  metadata  Json?
+  createdAt DateTime  @default(now())
+}

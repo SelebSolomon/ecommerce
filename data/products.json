@@ -1,0 +1,282 @@
+[
+  {
+    "name": "iPhone 14 Pro",
+    "price": 999,
+    "description": "Apple iPhone 14 Pro with A16 Bionic chip and 5G.",
+    "stock": 50,
+    "images": "https://store.storeimages.cdn-apple.com/iphone-14-pro.jpg",
+    "category": "651006666666666666666666",
+    "ratings": 4.8,
+    "date": "2024-09-01"
+  },
+  {
+    "name": "Samsung Galaxy S23",
+    "price": 899,
+    "description": "Flagship Samsung smartphone with dynamic AMOLED display.",
+    "stock": 70,
+    "images": "https://images.samsung.com/galaxy-s23.jpg",
+    "category": "651006666666666666666666",
+    "ratings": 4.7,
+    "date": "2024-10-12"
+  },
+  {
+    "name": "Dell XPS 15",
+    "price": 1499,
+    "description": "High-performance laptop with OLED display.",
+    "stock": 30,
+    "images": "https://i.dell.com/xps-15.jpg",
+    "category": "651007777777777777777777",
+    "ratings": 4.6,
+    "date": "2023-12-05"
+  },
+  {
+    "name": "MacBook Air M2",
+    "price": 1199,
+    "description": "Lightweight Apple laptop with M2 chip.",
+    "stock": 40,
+    "images": "https://store.storeimages.cdn-apple.com/macbook-air-m2.jpg",
+    "category": "651007777777777777777777",
+    "ratings": 4.9,
+    "date": "2024-04-20"
+  },
+  {
+    "name": "Anker Fast Charger",
+    "price": 39,
+    "description": "65W USB-C fast charger for phones and laptops.",
+    "stock": 200,
+    "images": "https://cdn.anker.com/anker-fast-charger.jpg",
+    "category": "651008888888888888888888",
+    "ratings": 4.5,
+    "date": "2022-11-01"
+  },
+  {
+    "name": "MagSafe Wireless Charger",
+    "price": 59,
+    "description": "Apple MagSafe charger for iPhones.",
+    "stock": 150,
+    "images": "https://store.storeimages.cdn-apple.com/magsafe-charger.jpg",
+    "category": "651008888888888888888888",
+    "ratings": 4.4,
+    "date": "2023-02-18"
+  },
+  {
+    "name": "Toyota Highlander",
+    "price": 42000,
+    "description": "Spacious SUV with hybrid engine option.",
+    "stock": 8,
+    "images": "https://toyota.scene7.com/highlander.jpg",
+    "category": "651009999999999999999999",
+    "ratings": 4.6,
+    "date": "2025-01-02"
+  },
+  {
+    "name": "Range Rover Evoque",
+    "price": 55000,
+    "description": "Luxury compact SUV with premium interior.",
+    "stock": 5,
+    "images": "https://media.landrover.com/evoque.jpg",
+    "category": "651009999999999999999999",
+    "ratings": 4.7,
+    "date": "2025-03-10"
+  },
+  {
+    "name": "Honda Accord",
+    "price": 28000,
+    "description": "Reliable sedan with advanced safety features.",
+    "stock": 12,
+    "images": "https://automobiles.honda.com/accord.jpg",
+    "category": "651010101010101010101010",
+    "ratings": 4.5,
+    "date": "2024-06-11"
+  },
+  {
+    "name": "Tesla Model 3",
+    "price": 39000,
+    "description": "All-electric sedan with autopilot features.",
+    "stock": 6,
+    "images": "https://tesla-cdn.thron.com/model-3.jpg",
+    "category": "651010101010101010101010",
+    "ratings": 4.9,
+    "date": "2024-08-22"
+  },
+  {
+    "name": "Nike Air Force 1",
+    "price": 120,
+    "description": "Classic Nike sneakers with durable design.",
+    "stock": 120,
+    "images": "https://static.nike.com/air-force-1.jpg",
+    "category": "651011111111111111111111",
+    "ratings": 4.8,
+    "date": "2023-09-05"
+  },
+  {
+    "name": "Adidas Ultraboost",
+    "price": 150,
+    "description": "High-performance running sneakers.",
+    "stock": 90,
+    "images": "https://assets.adidas.com/ultraboost.jpg",
+    "category": "651011111111111111111111",
+    "ratings": 4.7,
+    "date": "2023-11-13"
+  },
+  {
+    "name": "Oxford Leather Shoes",
+    "price": 180,
+    "description": "Premium brown leather formal shoes.",
+    "stock": 60,
+    "images": "https://images.clarks.com/oxford-leather-shoes.jpg",
+    "category": "651012222222222222222222",
+    "ratings": 4.6,
+    "date": "2024-02-25"
+  },
+  {
+    "name": "Black Derby Shoes",
+    "price": 140,
+    "description": "Classic formal shoes for office wear.",
+    "stock": 70,
+    "images": "https://images.clarks.com/derby-shoes.jpg",
+    "category": "651012222222222222222222",
+    "ratings": 4.5,
+    "date": "2024-04-01"
+  },
+  {
+    "name": "Men's Denim Jacket",
+    "price": 99,
+    "description": "Blue denim jacket for casual wear.",
+    "stock": 100,
+    "images": "https://static.zara.net/denim-jacket.jpg",
+    "category": "651013333333333333333333",
+    "ratings": 4.4,
+    "date": "2023-10-14"
+  },
+  {
+    "name": "Men's Hoodie",
+    "price": 60,
+    "description": "Comfortable cotton hoodie for men.",
+    "stock": 150,
+    "images": "https://static2.hm.com/mens-hoodie.jpg",
+    "category": "651013333333333333333333",
+    "ratings": 4.3,
+    "date": "2023-11-19"
+  },
+  {
+    "name": "Women's Summer Dress",
+    "price": 79,
+    "description": "Lightweight floral print dress.",
+    "stock": 120,
+    "images": "https://images2.hm.com/summer-dress.jpg",
+    "category": "651014444444444444444444",
+    "ratings": 4.6,
+    "date": "2024-05-01"
+  },
+  {
+    "name": "Women's Blazer",
+    "price": 150,
+    "description": "Stylish formal blazer for women.",
+    "stock": 70,
+    "images": "https://static.zara.net/womens-blazer.jpg",
+    "category": "651014444444444444444444",
+    "ratings": 4.5,
+    "date": "2024-07-12"
+  },
+  {
+    "name": "Nike Backpack",
+    "price": 90,
+    "description": "Durable backpack with multiple compartments.",
+    "stock": 200,
+    "images": "https://static.nike.com/backpack.jpg",
+    "category": "651015555555555555555555",
+    "ratings": 4.6,
+    "date": "2023-09-21"
+  },
+  {
+    "name": "Adidas Sports Backpack",
+    "price": 80,
+    "description": "Lightweight backpack for sports and travel.",
+    "stock": 180,
+    "images": "https://assets.adidas.com/backpack.jpg",
+    "category": "651015555555555555555555",
+    "ratings": 4.5,
+    "date": "2023-12-08"
+  },
+  {
+    "name": "Gucci Handbag",
+    "price": 1200,
+    "description": "Luxury leather handbag by Gucci.",
+    "stock": 20,
+    "images": "https://media.gucci.com/handbag.jpg",
+    "category": "651016666666666666666666",
+    "ratings": 4.9,
+    "date": "2024-01-14"
+  },
+  {
+    "name": "Michael Kors Tote",
+    "price": 350,
+    "description": "Classic tote handbag by Michael Kors.",
+    "stock": 40,
+    "images": "https://michaelkors.scene7.com/tote.jpg",
+    "category": "651016666666666666666666",
+    "ratings": 4.7,
+    "date": "2024-02-26"
+  },
+  {
+    "name": "Sony WH-1000XM5",
+    "price": 399,
+    "description": "Wireless noise-cancelling headphones.",
+    "stock": 120,
+    "images": "https://m.media-amazon.com/sony-wh1000xm5.jpg",
+    "category": "651001111111111111111111",
+    "ratings": 4.8,
+    "date": "2023-06-15"
+  },
+  {
+    "name": "LG 4K OLED TV",
+    "price": 1800,
+    "description": "65-inch OLED TV with HDR support.",
+    "stock": 30,
+    "images": "https://www.lg.com/oled-tv.jpg",
+    "category": "651001111111111111111111",
+    "ratings": 4.9,
+    "date": "2024-08-10"
+  },
+  {
+    "name": "GoPro Hero 11",
+    "price": 499,
+    "description": "Action camera with 5.3K video recording.",
+    "stock": 80,
+    "images": "https://gopro.com/hero11.jpg",
+    "category": "651001111111111111111111",
+    "ratings": 4.7,
+    "date": "2024-11-23"
+  },
+  {
+    "name": "DJI Mini 3 Drone",
+    "price": 699,
+    "description": "Compact drone with 4K video and GPS.",
+    "stock": 40,
+    "images": "https://dji-official-fe.djimini3.jpg",
+    "category": "651001111111111111111111",
+    "ratings": 4.8,
+    "date": "2024-09-30"
+  },
+  {
+    "name": "HP Omen Gaming Laptop",
+    "price": 1399,
+    "description": "Gaming laptop with RTX 4070 graphics.",
+    "stock": 25,
+    "images": "https://ssl-product-images.hp.com/omen-gaming-laptop.jpg",
+    "category": "651007777777777777777777",
+    "ratings": 4.7,
+    "date": "2025-02-01"
+  },
+  {
+    "name": "Asus ROG Charger",
+    "price": 49,
+    "description": "Fast charger designed for Asus ROG gaming laptops.",
+    "stock": 100,
+    "images": "https://dlcdnwebimgs.asus.com/rog-charger.jpg",
+    "category": "651008888888888888888888",
+    "ratings": 4.5,
+    "date": "2025-01-18"
+  }
+]
